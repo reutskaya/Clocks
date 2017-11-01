@@ -34,7 +34,7 @@ namespace Clocks
 
         private void ClockTimer_Click(object sender, EventArgs e)
         {
-            ClockTimer.ForeColor = Color.Red;
+            ClockTimer.ForeColor = Color.GreenYellow;
             ClockTimer.Text = "Do not click this!";
         }
 
