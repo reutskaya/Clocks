@@ -1,6 +1,6 @@
 ﻿namespace Clocks
 {
-    partial class Form1
+    partial class Clock
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -35,8 +35,8 @@
             // 
             // ClockTimer
             // 
-            this.ClockTimer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.ClockTimer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ClockTimer.Font = new System.Drawing.Font("Umpqua", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClockTimer.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -49,7 +49,6 @@
             this.ClockTimer.Text = "HH:mm:ss";
             this.ClockTimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ClockTimer.UseMnemonic = false;
-            this.ClockTimer.MarginChanged += new System.EventHandler(this.ClockTimer_MarginChanged);
             this.ClockTimer.Click += new System.EventHandler(this.ClockTimer_Click);
             this.ClockTimer.DoubleClick += new System.EventHandler(this.ClockTimer_DoubleClick);
             // 
@@ -71,9 +70,7 @@
             this.MinimumSize = new System.Drawing.Size(120, 80);
             this.Name = "Form1";
             this.Text = "CLOCK";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
-
         }
 
         #endregion
